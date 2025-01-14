@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 #gallery {
-    font-family: "Alacad+Flux", sans-serif;
+    font-family: 'Afacad Flux', sans-serif;
     line-height: 1.5em;
     text-align: center;
   }
@@ -45,11 +45,15 @@ img {
 }
 
 .container:hover .flipper {
-  transform: rotateY(180deg);
+  transform: rotateY(540deg);
+}
+
+a {
+  color: navy;
 }
 
 .caption, .back h1 {
-  font-family: "Orbitron", sans-serif;
+  font-family: 'Afacad Flux', sans-serif;
   font-size: 1.7em;
   padding: 10px 10px 0 10px;
   margin: 0;
